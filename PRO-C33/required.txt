@@ -1,0 +1,52 @@
+if(c2.body.position.y> 700&&c2.body.position.x<160&&c2.body.position.x>0 ||c2.body.position.y> 700&&c2.body.position.x>640&&c2.body.position.x<800 ){
+    score=score+100
+    a=null
+  }
+  else if(c2.body.position.y> 700&&c2.body.position.x>160&&c2.body.position.x<320 ||c2.body.position.y> 700&&c2.body.position.x<640&&c2.body.position.x>480 ){
+    score=score+300
+    a=null
+  }
+  else if(c2.body.position.y> 700&&c2.body.position.x>320&&c2.body.position.x<480 ){
+    score=score+500
+    a=null
+  }
+
+  if(c3.body.position.y> 700&&c3.body.position.x<160&&c3.body.position.x>0 ||c3.body.position.y> 700&&c3.body.position.x>640&&c3.body.position.x<800 ){
+    score=score+100
+    a=null
+    console.log('work')
+  }
+  else if(c3.body.position.y> 700&&c3.body.position.x>160&&c3.body.position.x<320 ||c3.body.position.y> 700&&c3.body.position.x<640&&c3.body.position.x>480 ){
+    score=score+300
+    a=null
+  }
+  else if(c3.body.position.y> 700&&c3.body.position.x>320&&c3.body.position.x<480 ){
+    score=score+500
+    a=null
+  }
+
+  if(c4.body.position.y> 700&&c4.body.position.x<160&&c4.body.position.x>0 ||c4.body.position.y> 700&&c4.body.position.x>640&&c4.body.position.x<800 ){
+    score=score+100
+    a=null
+  }
+  else if(c4.body.position.y> 700&&c4.body.position.x>160&&c4.body.position.x<320 ||c4.body.position.y> 700&&c4.body.position.x<640&&c4.body.position.x>480 ){
+    score=score+300
+    a=null
+  }
+  else if(c4.body.position.y> 700&&c4.body.position.x>320&&c4.body.position.x<480 ){
+    score=score+500
+    a=null
+  }
+
+  if(c5.body.position.y> 700&&c5.body.position.x<160&&c5.body.position.x>0 ||c5.body.position.y> 700&&c5.body.position.x>640&&c5.body.position.x<800 ){
+    score=score+100
+    a=null
+  }
+  else if(c5.body.position.y> 700&&c5.body.position.x>160&&c5.body.position.x<320 ||c5.body.position.y> 700&&c5.body.position.x<640&&c5.body.position.x>480 ){
+    score=score+300
+    a=null
+  }
+  else if(c5.body.position.y> 700&&c5.body.position.x>320&&c5.body.position.x<480 ){
+    score=score+500
+    a=null
+  }
